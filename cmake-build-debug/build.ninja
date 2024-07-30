@@ -133,6 +133,37 @@ build DoublyLinkedList: C_EXECUTABLE_LINKER__DoublyLinkedList_Debug CMakeFiles/D
   TARGET_FILE = DoublyLinkedList
   TARGET_PDB = DoublyLinkedList.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CircularDoublyLinkedList
+
+
+#############################################
+# Order-only phony target for CircularDoublyLinkedList
+
+build cmake_object_order_depends_target_CircularDoublyLinkedList: phony || CMakeFiles/CircularDoublyLinkedList.dir
+
+build CMakeFiles/CircularDoublyLinkedList.dir/LinkedList/CDLL.c.o: C_COMPILER__CircularDoublyLinkedList_unscanned_Debug /home/sullung/Dev/C_datastructure_algorithm/LinkedList/CDLL.c || cmake_object_order_depends_target_CircularDoublyLinkedList
+  DEP_FILE = CMakeFiles/CircularDoublyLinkedList.dir/LinkedList/CDLL.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/CircularDoublyLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles/CircularDoublyLinkedList.dir/LinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CircularDoublyLinkedList
+
+
+#############################################
+# Link the executable CircularDoublyLinkedList
+
+build CircularDoublyLinkedList: C_EXECUTABLE_LINKER__CircularDoublyLinkedList_Debug CMakeFiles/CircularDoublyLinkedList.dir/LinkedList/CDLL.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/CircularDoublyLinkedList.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CircularDoublyLinkedList
+  TARGET_PDB = CircularDoublyLinkedList.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/sullung/Dev/C_datastructure_algorithm/cmake-build-debug
 
-build all: phony C_datastructure_algorithm SingularLinkedList DoublyLinkedList
+build all: phony C_datastructure_algorithm SingularLinkedList DoublyLinkedList CircularDoublyLinkedList
 
 # =============================================================================
 # Built-in targets

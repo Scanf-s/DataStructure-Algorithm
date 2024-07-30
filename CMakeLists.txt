@@ -9,3 +9,6 @@ add_executable(SingularLinkedList LinkedList/SLL.c
 add_executable(DoublyLinkedList LinkedList/DLL.c LinkedList/DoublyLinkedList.h
         LinkedList/DoublyLinkedList.h
         LinkedList/DLL.c)
+add_executable(CircularDoublyLinkedList LinkedList/CDLL.c LinkedList/CircularDoublyLinkedList.h
+        LinkedList/CircularDoublyLinkedList.h
+        LinkedList/CDLL.c)
