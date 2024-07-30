@@ -1,6 +1,0 @@
-/home/sullung/Dev/C_datastructure_algorithm/cmake-build-debug/CMakeFiles/C_datastructure_algorithm.dir
-/home/sullung/Dev/C_datastructure_algorithm/cmake-build-debug/CMakeFiles/SingularLinkedList.dir
-/home/sullung/Dev/C_datastructure_algorithm/cmake-build-debug/CMakeFiles/DoublyLinkedList.dir
-/home/sullung/Dev/C_datastructure_algorithm/cmake-build-debug/CMakeFiles/CircularDoublyLinkedList.dir
-/home/sullung/Dev/C_datastructure_algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/sullung/Dev/C_datastructure_algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
