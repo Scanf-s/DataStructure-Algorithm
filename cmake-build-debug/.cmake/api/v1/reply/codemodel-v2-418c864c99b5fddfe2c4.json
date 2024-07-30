@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -43,6 +45,13 @@
 					"id" : "C_datastructure_algorithm::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-C_datastructure_algorithm-Debug-abf4115d45281a68d9b2.json",
 					"name" : "C_datastructure_algorithm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DoublyLinkedList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DoublyLinkedList-Debug-6d9fb44c6156123f2a48.json",
+					"name" : "DoublyLinkedList",
 					"projectIndex" : 0
 				},
 				{

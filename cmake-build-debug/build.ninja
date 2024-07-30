@@ -102,6 +102,37 @@ build SingularLinkedList: C_EXECUTABLE_LINKER__SingularLinkedList_Debug CMakeFil
   TARGET_FILE = SingularLinkedList
   TARGET_PDB = SingularLinkedList.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DoublyLinkedList
+
+
+#############################################
+# Order-only phony target for DoublyLinkedList
+
+build cmake_object_order_depends_target_DoublyLinkedList: phony || CMakeFiles/DoublyLinkedList.dir
+
+build CMakeFiles/DoublyLinkedList.dir/LinkedList/DLL.c.o: C_COMPILER__DoublyLinkedList_unscanned_Debug /home/sullung/Dev/C_datastructure_algorithm/LinkedList/DLL.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles/DoublyLinkedList.dir/LinkedList/DLL.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/DoublyLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles/DoublyLinkedList.dir/LinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DoublyLinkedList
+
+
+#############################################
+# Link the executable DoublyLinkedList
+
+build DoublyLinkedList: C_EXECUTABLE_LINKER__DoublyLinkedList_Debug CMakeFiles/DoublyLinkedList.dir/LinkedList/DLL.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/DoublyLinkedList.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DoublyLinkedList
+  TARGET_PDB = DoublyLinkedList.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/sullung/Dev/C_datastructure_algorithm/cmake-build-debug
 
-build all: phony C_datastructure_algorithm SingularLinkedList
+build all: phony C_datastructure_algorithm SingularLinkedList DoublyLinkedList
 
 # =============================================================================
 # Built-in targets
