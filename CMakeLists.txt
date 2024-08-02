@@ -4,11 +4,19 @@ project(C_datastructure_algorithm C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(C_datastructure_algorithm main.c)
-add_executable(SingularLinkedList LinkedList/SLL.c
-        LinkedList/LinkedList.h)
-add_executable(DoublyLinkedList LinkedList/DLL.c LinkedList/DoublyLinkedList.h
+add_executable(
+        LinkedList
+        LinkedList/SLL.c
+        LinkedList/LinkedList.h
         LinkedList/DoublyLinkedList.h
-        LinkedList/DLL.c)
-add_executable(CircularDoublyLinkedList LinkedList/CDLL.c LinkedList/CircularDoublyLinkedList.h
+        LinkedList/DLL.c
+        LinkedList/CDLL.c
         LinkedList/CircularDoublyLinkedList.h
-        LinkedList/CDLL.c)
+)
+add_executable(
+        Stack
+        Stack/ArrayStack.c
+        Stack/ArrayStack.h
+        Stack/LinkedListStack.c
+        Stack/LinkedListStack.h
+)
