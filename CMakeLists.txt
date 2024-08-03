@@ -12,6 +12,9 @@ add_executable(
         LinkedList/DLL.c
         LinkedList/CDLL.c
         LinkedList/CircularDoublyLinkedList.h
+        LinkedList/Test_CircularDoublyLinkedList.c
+        LinkedList/Test_DoublyLinkedList.c
+        LinkedList/Test_LinkedList.c
 )
 add_executable(
         Stack
@@ -19,4 +22,8 @@ add_executable(
         Stack/ArrayStack.h
         Stack/LinkedListStack.c
         Stack/LinkedListStack.h
+        Stack/Calculator.c
+        Stack/Test_ArrayStack.c
+        Stack/Test_Calculator.c
+        Stack/Test_LinkedListStack.c
 )
