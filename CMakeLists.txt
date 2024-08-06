@@ -27,3 +27,13 @@ add_executable(
         Stack/Test_Calculator.c
         Stack/Test_LinkedListStack.c
 )
+add_executable(
+        Queue
+        Queue/CircularQueue.c
+        Queue/CircularQueue.h
+        Queue/LinkedQueue.c
+        Queue/LinkedQueue.h
+        Queue/Test_CircularQueue.c
+        Queue/Test_LinkedQueue.c
+        Queue/Test_CircularQueue.c
+)
