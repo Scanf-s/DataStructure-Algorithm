@@ -37,3 +37,10 @@ add_executable(
         Queue/Test_LinkedQueue.c
         Queue/Test_CircularQueue.c
 )
+add_executable(
+        Sort_algorithm
+        Sort_algorithm/BubbleSort.c
+        Sort_algorithm/InsertionSort.c
+        Sort_algorithm/QuickSort.c
+        Sort_algorithm/Qsortlib.c
+)
