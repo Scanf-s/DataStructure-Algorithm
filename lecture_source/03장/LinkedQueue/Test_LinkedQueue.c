@@ -12,7 +12,7 @@ int main( void )
     LQ_Enqueue( Queue, LQ_CreateNode("efg") );
     LQ_Enqueue( Queue, LQ_CreateNode("hij") );
 
-    printf("Queue Size : %d\n", Queue->Count);
+    printf("03.Queue Size : %d\n", Queue->Count);
 
     while ( LQ_IsEmpty( Queue ) == 0 )
     {

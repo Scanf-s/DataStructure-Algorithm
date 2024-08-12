@@ -25,7 +25,7 @@ int main( void )
         if ( ! AS_IsEmpty(Stack) )
             printf( "Current Top: %d\n", AS_Top(Stack) );
         else
-            printf( "Stack Is Empty.\n" );
+            printf( "02.Stack Is Empty.\n" );
     }
 
     AS_DestroyStack(Stack);

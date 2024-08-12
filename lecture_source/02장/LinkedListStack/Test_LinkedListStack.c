@@ -36,7 +36,7 @@ int main( void )
         }
         else
         {
-            printf( "Stack Is Empty.\n");
+            printf( "02.Stack Is Empty.\n");
         }
     }
 

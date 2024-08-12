@@ -6,41 +6,52 @@ set(CMAKE_C_STANDARD 11)
 add_executable(C_datastructure_algorithm main.c)
 add_executable(
         LinkedList
-        LinkedList/SLL.c
-        LinkedList/LinkedList.h
-        LinkedList/DoublyLinkedList.h
-        LinkedList/DLL.c
-        LinkedList/CDLL.c
-        LinkedList/CircularDoublyLinkedList.h
-        LinkedList/Test_CircularDoublyLinkedList.c
-        LinkedList/Test_DoublyLinkedList.c
-        LinkedList/Test_LinkedList.c
+        01.LinkedList/SLL.c
+        01.LinkedList/LinkedList.h
+        01.LinkedList/DoublyLinkedList.h
+        01.LinkedList/DLL.c
+        01.LinkedList/CDLL.c
+        01.LinkedList/CircularDoublyLinkedList.h
+        01.LinkedList/Test_CircularDoublyLinkedList.c
+        01.LinkedList/Test_DoublyLinkedList.c
+        01.LinkedList/Test_LinkedList.c
 )
 add_executable(
         Stack
-        Stack/ArrayStack.c
-        Stack/ArrayStack.h
-        Stack/LinkedListStack.c
-        Stack/LinkedListStack.h
-        Stack/Calculator.c
-        Stack/Test_ArrayStack.c
-        Stack/Test_Calculator.c
-        Stack/Test_LinkedListStack.c
+        02.Stack/ArrayStack.c
+        02.Stack/ArrayStack.h
+        02.Stack/LinkedListStack.c
+        02.Stack/LinkedListStack.h
+        02.Stack/Calculator.c
+        02.Stack/Test_ArrayStack.c
+        02.Stack/Test_Calculator.c
+        02.Stack/Test_LinkedListStack.c
 )
 add_executable(
         Queue
-        Queue/CircularQueue.c
-        Queue/CircularQueue.h
-        Queue/LinkedQueue.c
-        Queue/LinkedQueue.h
-        Queue/Test_CircularQueue.c
-        Queue/Test_LinkedQueue.c
-        Queue/Test_CircularQueue.c
+        03.Queue/CircularQueue.c
+        03.Queue/CircularQueue.h
+        03.Queue/LinkedQueue.c
+        03.Queue/LinkedQueue.h
+        03.Queue/Test_CircularQueue.c
+        03.Queue/Test_LinkedQueue.c
+        03.Queue/Test_CircularQueue.c
 )
 add_executable(
         Sort_algorithm
-        Sort_algorithm/BubbleSort.c
-        Sort_algorithm/InsertionSort.c
-        Sort_algorithm/QuickSort.c
-        Sort_algorithm/Qsortlib.c
+        05.Sort_algorithm/BubbleSort.c
+        05.Sort_algorithm/InsertionSort.c
+        05.Sort_algorithm/QuickSort.c
+        05.Sort_algorithm/Qsortlib.c
+)
+add_executable(
+        BinarySearchTree
+        06.Binary_search/BinarySearch.h
+        06.Binary_search/BinarySearch.c
+        06.Binary_search/BinarySearchLibrary.c
+        06.Binary_search/BinarySearchTree.c
+        06.Binary_search/BinarySearchTree.h
+        06.Binary_search/BST_Test.c
+        06.Binary_search/RedBlackTree.c
+        06.Binary_search/RedBlackTree.h
 )

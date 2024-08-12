@@ -6,7 +6,7 @@
 void AS_CreateStack(ArrayStack** Stack, int Capacity){
     // Capacity = number of nodes
 
-    // Create Stack in Free Memory
+    // Create 02.Stack in Free Memory
     (*Stack) = (ArrayStack*)malloc(sizeof(ArrayStack));
     // Allocate Memory for Nodes
     (*Stack)->Nodes = (Node*)malloc(sizeof(Node) * Capacity);
@@ -20,7 +20,7 @@ void AS_DestroyStack(ArrayStack* Stack){
     // Free allocated Nodes in Free Memory
     free(Stack->Nodes);
 
-    // Free allocated Stack in Free Memory
+    // Free allocated 02.Stack in Free Memory
     free(Stack);
 }
 

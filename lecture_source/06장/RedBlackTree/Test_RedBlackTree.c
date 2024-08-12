@@ -18,7 +18,7 @@ int main( void )
 
         printf("Enter command number :\n");
         printf("(1) Create a node, (2) Remove a node, (3) Search a Node\n");
-        printf("(4) Display Tree (5) quit\n");
+        printf("(4) Display 04.Tree (5) quit\n");
         printf("command number:");
 
         fgets(buffer, sizeof(buffer)-1, stdin);
