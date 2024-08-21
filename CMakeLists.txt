@@ -54,4 +54,15 @@ add_executable(
         06.Binary_search/BST_Test.c
         06.Binary_search/RedBlackTree.c
         06.Binary_search/RedBlackTree.h
+        06.Binary_search/Test_RedBlackTree.c
+)
+add_executable(
+        Heap
+        07.Heap/Heap.h
+        07.Heap/Heap.c
+        07.Heap/Test_Heap.c
+        07.Heap/PriorityQueue.h
+        07.Heap/PriorityQueue.c
+        07.Heap/Test_PriorityQueue.c
+        07.Heap/Heap.c
 )
