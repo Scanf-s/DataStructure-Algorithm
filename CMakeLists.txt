@@ -66,3 +66,10 @@ add_executable(
         07.Heap/Test_PriorityQueue.c
         07.Heap/Heap.c
 )
+add_executable(
+        Graph
+        09/Graph/Graph.c
+        09/Graph/Graph.h
+        09/Graph/Test_Graph.c
+        09/Graph/Test_Graph.c
+)
