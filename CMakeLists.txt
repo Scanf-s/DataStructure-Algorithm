@@ -72,4 +72,12 @@ add_executable(
         09/Graph/Graph.h
         09/Graph/Test_Graph.c
         09/Graph/Test_Graph.c
+        09/GraphTraversal/Graph.c
+        09/GraphTraversal/Graph.h
+        09/GraphTraversal/Test_GraphTraversal.c
+        09/GraphTraversal/GraphTraversal.c
+        09/GraphTraversal/GraphTraversal.h
+        09/GraphTraversal/LinkedQueue.c
+        09/GraphTraversal/LinkedQueue.h
+        09/GraphTraversal/Test_GraphTraversal.c
 )
