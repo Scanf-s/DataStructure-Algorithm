@@ -1,8 +1,7 @@
 #include "Graph.h"
 #include "TopologicalSort.h"
 
-int main( void )
-{
+int main( void ){
     Node* SortedList  = NULL;
     Node* CurrentNode = NULL;
 
